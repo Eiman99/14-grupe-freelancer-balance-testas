@@ -11,4 +11,16 @@ const account = [
     { month: 11, income: 150, expense: 30 },
     { month: 8, income: 450, expense: 120 },
     { month: 12, expense: 200 }
+    
 ];
+
+ let month = ['Sausis', 'Vasaris', 'Kovas', 'Balandis', 'Geguze', 'Birzelis', 'Liepa', 'Rugpjutis', 'Rugsejis', 'Spalis', 'Lapkritis', 'Gruodis']
+
+ 
+ for ( let i=0; i<12; i++) {
+    console.log(month[i]);
+    
+ }
+let sausis = month[0] + account[1];
+console.log(sausis + income);
+ 
